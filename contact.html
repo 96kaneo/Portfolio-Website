@@ -27,25 +27,36 @@
             </div>
         </div>
         <div class="main_content">
-            <div class="info">
-                <p style='font-weight: bold;' class="hello fade-in-text">
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <div class="info">
+                        <p style='font-weight: bold;' class="hello fade-in-text">
 
-                </p>
-                <p style='font-weight: bold; margin-bottom: 1rem; color:#FB3C3C;' class="fade-in-text">
-                    CONTACT ME
-                </p>
-                <p class="bio fade-in-text">
-                    Don't be afraid to get in contact, I Would love to hear from you with any future opportunities
-                </p>
-                <form onsubmit="sendEmail(); reset(); return false;" class="fade-in-text">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Email" required>
-                    <input type="text" id="phone" placeholder="Phone">
-                    <textarea rows="4" id="message" placeholder="Description"></textarea>
-                    <button type="submit">submit</button>
-                </form>
+                        </p>
+                        <p style='font-weight: bold; margin-bottom: 1rem; color:#FB3C3C;' class="fade-in-text">
+                            CONTACT ME
+                        </p>
+                        <p class="bio fade-in-text">
+                            Don't be afraid to get in contact, I Would love to hear from you with any future
+                            opportunities
+                        </p>
+                        <form action="https://formsubmit.co/96kaneo@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input class="messageBox " type="text" name="name" placeholder="Message" required>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123090.19787074623!2d144.92391463174835!3d-37.79494795199686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne%20VIC%203000!5e1!3m2!1sen!2sau!4v1676348051866!5m2!1sen!2sau"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="circle"></div>
     <div class="circle"></div>

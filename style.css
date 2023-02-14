@@ -267,6 +267,12 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.portrait {
+  width: 93%;
+  margin-top: 353px;
+  border-radius: 20px;
+}
+
 /* My Work */
 .grid {
   display: flex;
@@ -340,7 +346,7 @@ form {
   flex-direction: column;
   padding: 2vw 4vw;
   width: 90%;
-  max-width: 600px;
+  max-width: 745px;
   border-radius: 10px;
 }
 
@@ -366,4 +372,9 @@ form button {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 10px;
+}
+
+.map {
+  width: 176%;
+  height: 107.56%;
 }
