@@ -330,3 +330,40 @@ a {
 .img-wrapper:hover>img.zoom {
   transform: scale(1.1);
 }
+
+/*Contact Me */
+
+
+form {
+  background: #FB3C3C;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form input,
+form textarea {
+  border: 0px;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 15px;
+  background: #1A1A1A;
+  color: #fff;
+  font-size: 18px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}

@@ -73,3 +73,22 @@ function animateCircles() {
 animateCircles();
 
 /*Loading animation */
+
+/* Contact Us */
+
+function sendEmail() {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "96kaneo@gmail.com",
+    Password: "743074EF82FFB647F542B9B1D3F74A5EC2B7",
+    To: '96kaneo@gmail.com',
+    From: document.getElementById("email").value,
+    Subject: "New Contact from Website",
+    Body: "Name " + document.getElementById("name").value
+      + "<br> Email: " + document.getElementById("email").value
+      + "<br> Phone no: " + document.getElementById("phone").value
+      + "<br> Message: " + document.getElementById("message").value
+  }).then(
+    message => alert("Message was sent successfully")
+  );
+}

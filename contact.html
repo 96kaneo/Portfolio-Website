@@ -17,9 +17,9 @@
         <div class="sidebar">
             <a href="index.html"><img src="Assets/Img/KL logo.png" class="logo"></img></a>
             <ul>
-                <li class="pageSelect"><a href="#"><i class="fas"></i>ABOUT</a></li>
+                <li><a href="about.html"><i class="fas"></i>ABOUT</a></li>
                 <li><a href="work.html"><i class="fas"></i>WORK</a></li>
-                <li><a href="contact.html"><i class="fas"></i>CONTACT</a></li>
+                <li class="pageSelect"><a href="#"><i class="fas"></i>CONTACT</a></li>
             </ul>
             <div class="social_media">
                 <a href="https://www.linkedin.com/in/kane-lalor-7a224618b/"><i class="fab fa-linkedin-in"></i></a>
@@ -32,27 +32,18 @@
 
                 </p>
                 <p style='font-weight: bold; margin-bottom: 1rem; color:#FB3C3C;' class="fade-in-text">
-                    ABOUT MYSELF
+                    CONTACT ME
                 </p>
-                <p class="role bio fade-in-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Tortor consequat id porta nibh venenatis. Sed tempus urna et pharetra
-                    pharetra. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. In hendrerit gravida rutrum quisque
-                    non tellus. Vitae proin sagittis nisl rhoncus mattis. Est velit egestas dui id ornare arcu. Nunc id
-                    cursus metus aliquam eleifend mi in nulla posuere. Viverra justo nec ultrices dui sapien eget mi.
-                    Libero volutpat sed cras ornare arcu. Lobortis elementum nibh tellus molestie nunc non blandit.
-                    Imperdiet sed euismod nisi porta lorem mollis aliquam. Diam vulputate ut pharetra sit amet. Sed
-                    tempus urna et pharetra pharetra massa massa ultricies. Nulla malesuada pellentesque elit eget
-                    gravida.
+                <p class="bio fade-in-text">
+                    Don't be afraid to get in contact, I Would love to hear from you with any future opportunities
                 </p>
-                <p class="role bio fade-in-text">
-                    Morbi quis commodo odio aenean. Ullamcorper malesuada proin libero nunc consequat interdum varius
-                    sit amet. Sapien pellentesque habitant morbi tristique senectus. Lobortis elementum nibh tellus
-                    molestie nunc non. Nullam eget felis eget nunc lobortis. Volutpat ac tincidunt vitae semper. A
-                    condimentum vitae sapien pellentesque habitant morbi tristique. Quisque egestas diam in arcu cursus
-                    euismod quis viverra nibh. Velit egestas dui id ornare arcu odio. Velit egestas dui id ornare arcu
-                    odio ut sem nulla.
-                </p>
+                <form onsubmit="sendEmail(); reset(); return false;" class="fade-in-text">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="phone" placeholder="Phone">
+                    <textarea rows="4" id="message" placeholder="Description"></textarea>
+                    <button type="submit">submit</button>
+                </form>
             </div>
         </div>
     </div>
@@ -88,6 +79,7 @@
     <div class="circle"></div>
     <div class="circle"></div>
     <script src="./script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
