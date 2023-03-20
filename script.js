@@ -72,7 +72,14 @@ function animateCircles() {
 
 animateCircles();
 
-/* About tabs */
+/* SideBar */
+const menu_toggle = document.querySelector('.menu-toggle');
+const sidebar = document.querySelector('.sidebar');
+
+menu_toggle.addEventListener('click', () => {
+  menu_toggle.classList.toggle('is-active');
+  sidebar.classList.toggle('is-active');
+});
 
 function openTab(evt, tabName) {
   // Declare all variables
