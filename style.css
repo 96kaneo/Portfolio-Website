@@ -40,6 +40,17 @@ a {
   min-height: 100vh;
 }
 
+.introStyle {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 700;
+
+}
+
+.paragraph {
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
 .logoSize {
   width: 100%;
   height: auto;
@@ -119,6 +130,7 @@ a {
 }
 
 .sidebar .menu .menu-item {
+  font-family: 'Allerta Stencil', sans-serif;
   display: block;
   padding: 1em;
   color: #FFF;
@@ -173,97 +185,6 @@ a {
 }
 
 
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-} */
-
-
-/* .wrapper {
-  display: flex;
-  position: relative;
-} */
-
-/* .wrapper .sidebar {
-  width: 200px;
-  height: 100%;
-  background: #0D0D0D;
-  position: fixed;
-  border-right: 6px solid #FB3C3C;
-  box-shadow: 9px -1px 11px #000000;
-} */
-
-/* .wrapper .sidebar h2 {
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 30px;
-} */
-
-/* .wrapper .sidebar ul li {
-  padding: 15px;
-  padding-left: 0px !important;
-  text-align: center;
-
-} */
-
-/* .wrapper .sidebar ul li a {
-  color: #E6E6E6;
-  display: block;
-} */
-
-/* .wrapper .sidebar ul li a .fas {
-  width: 25px;
-} */
-
-/* .wrapper .sidebar ul li:hover {
-  background-color: #FB3C3C;
-} */
-
-/* .wrapper .sidebar ul li:hover a {
-  color: #E6E6E6;
-}
-
-.wrapper .sidebar .social_media {
-  position: relative;
-  bottom: 0;
-  left: 50%;
-  justify-content: center;
-  transform: translateX(-50%);
-  display: flex;
-  margin-top: 1rem;
-}
-
-.wrapper .sidebar .social_media a {
-  display: block;
-  width: 40px;
-  height: 40px;
-  line-height: 45px;
-  text-align: center;
-  margin: 0 5px;
-  color: #E6E6E6;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-} */
-/* 
-.wrapper .main_content {
-  width: 100%;
-  margin-left: 220px;
-  margin-right: 335px;
-} */
-
-/* .wrapper .main_content .header {
-  padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
-} */
-
 .wrapper .main_content {
   margin: 20px;
   margin-top: 200px;
@@ -273,26 +194,6 @@ a {
 
 
 }
-
-
-
-/* .hello {
-  margin-top: 15rem;
-  margin-bottom: 5rem;
-} */
-
-/* .role {
-  font-size: 30px;
-}
-
-.wrapper .main_content .info div {
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 100%;
-  margin-bottom: 8rem;
-} */
 
 /* glitch effect */
 .glitch {
@@ -437,6 +338,11 @@ a {
 
 }
 
+.textColour {
+  color: white;
+  font-family: 'El Messiri', sans-serif;
+}
+
 .img-wrapper {
   position: relative;
   overflow: hidden;
@@ -460,8 +366,8 @@ a {
   inset: 0;
   font-size: 1.1rem;
   border-radius: 50%;
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
   margin: auto;
   background: rgba(251, 60, 60);
   display: flex;
@@ -499,6 +405,7 @@ a {
 .tab {
   display: flex;
   margin: 20px 0 40px;
+
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -509,7 +416,6 @@ a {
   color: #E6E6E6;
   font-size: 18px;
   position: relative;
-  z-index: -1;
 }
 
 /* Change background color of buttons on hover */
@@ -523,12 +429,12 @@ a {
   left: 0;
   bottom: -8px;
   transition: 0.5s;
+
 }
 
 .tab p.active {
   display: block;
   border-bottom: 5px solid #FB3C3C;
-
 
 }
 
@@ -544,8 +450,7 @@ a {
   display: none;
   border-top: none;
   font-size: 14px;
-
-
+  animation: 3s linear
 }
 
 /*Contact Me */
@@ -602,6 +507,15 @@ form button {
   .portrait {
     margin-left: 0px;
   }
+
+
+
+  .map {
+    margin-top: 10px;
+    border-left: none;
+    max-width: 90%;
+    height: 335px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -634,5 +548,10 @@ form button {
 
   .info {
     font-size: 40px !important;
+  }
+
+  .positionImg {
+    width: 350px;
+    margin-right: 100px;
   }
 }
