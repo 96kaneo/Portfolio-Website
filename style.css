@@ -136,8 +136,8 @@ a {
   color: #FFF;
   text-decoration: none;
   transition: 0.2s linear;
-  border-bottom: 1px solid #E6E6E6;
   border-right: none !important;
+  text-align: center;
 }
 
 .sidebar .menu .menu-item:hover,
@@ -499,7 +499,6 @@ form button {
   width: 200%;
   height: 935px;
   object-fit: cover;
-  border-left: 2px solid white;
   margin-bottom: -50px !important;
 }
 
