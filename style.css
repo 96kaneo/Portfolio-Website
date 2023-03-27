@@ -562,5 +562,9 @@ form button {
     .portrait {
       width: 300px;
     }
+
+    .imgSize {
+      width: 300px;
+    }
   }
 }
