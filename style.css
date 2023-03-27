@@ -553,10 +553,13 @@ form button {
     width: 350px;
     margin-right: 100px;
   }
-}
 
-@media (max-width: 400px) {
-  .portrait {
-    width: 300px;
+  .img-wrapper:hover>.content.fade {
+    opacity: 0;
   }
-}
+
+  @media (max-width: 400px) {
+    .portrait {
+      width: 300px;
+    }
+  }
