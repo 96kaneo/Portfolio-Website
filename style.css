@@ -518,6 +518,10 @@ form button {
 }
 
 @media (max-width: 768px) {
+  .circle {
+    display: none;
+  }
+
   .menu-toggle {
     display: block;
   }
