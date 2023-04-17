@@ -420,6 +420,11 @@ a {
 
 /* Change background color of buttons on hover */
 
+.tablinks:hover {
+  display: block;
+  border-bottom: 5px solid #FB3C3C;
+}
+
 .tablinks::after {
   content: '';
   width: 0;
